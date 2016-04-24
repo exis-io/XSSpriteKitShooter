@@ -35,7 +35,9 @@ class ViewController: UIViewController, Delegate {
         me.delegate = self
 
         //Joining container with your token
-        //Copy from: Auth() -> Authorized Key Management -> 'CONTROLLER' key
+        //Navigate to your dashboard on my.exis.io and go to your app
+        //Go to your appliances tab and open your Auth appliance and find the Token Management tab
+        //Copy from: 'CONTROLLER' key
         me.setToken("GET_YOUR_CONTROLLER_KEY")
         me.join()
     }
